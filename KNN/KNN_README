@@ -1,6 +1,9 @@
 A Nearest Neighbor classifier: 
 - An example of supervised learning, that is the results of the dataset is known. 
-- The nearest neighbor classifier trains a dataset by calculating the Euclidean distances between every testing data and every training data. Thus, each testing data will have 5000 different Euclidean distance results since there are 5000 training data points. 
-- This testing set is classified based on the shortest Euclidean distances. For instance, if a testing point has the shortest distance to a training point that has been labeled as number 1, then that testing point is classified as number 1. 
-- K is the number of most recurring distances and it varies based on the classifier. If K=3 then we will consider the top 3 shortest Euclidean distances and from these distances determine which one is the shortes. If K=5, then we will consider the 5 shortest distances and the testing point is classified by the most recurring out of these 5 distances. 
+- The nearest neighbor classifier trains a dataset by calculating the Euclidean distances between every testing data and every training data. 
+  Thus, each testing data will have 5000 different Euclidean distance results since there are 5000 training data points. 
+- This testing set is classified based on the shortest Euclidean distances. For instance, if a testing point has the shortest distance to a 
+  training point that has been labeled as number 1, then that testing point is classified as number 1. 
+- K is the number of most recurring distances and it varies based on the classifier. If K=3 then we will consider the top 3 shortest Euclidean 
+  distances and from these distances determine which one is the shortes. If K=5, then we will consider the 5 shortest distances and the testing point is classified by the most recurring out of these 5 distances. 
 
